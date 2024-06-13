@@ -5,17 +5,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: rgb(94,41,130);
-    background: linear-gradient(90deg, rgba(94,41,130,1) 0%, rgba(235,29,253,1) 50%, rgba(252,69,100,1) 100%);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(162,102,246,1) 0%, rgba(203,159,249,1) 90% );
 }
 
 .calculator {
-    border: 2px solid #333;
+    border: none;
     border-radius: 30px;
     padding: 20px;
     background-color: #A87CA9;
     width: 330px;
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 
@@ -75,9 +74,7 @@ button:focus{
     display: flex;
     border-radius: 25px;
     color: black;
-    border: 2px solid black;
+    border: none;
     text-align: right;
 
 }
-
-
